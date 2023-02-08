@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop - Drop'Smoke</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Coffee Shop - Drop'Smoke</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Coffeeshop</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--
+        -----------------------------------------------------------
+        section#about>.container>img.store-front
+        -----------------------------------------------------------
+        atalho criar SECTION com id, DIV com class, IMG com class.
+        -----------------------------------------------------------
+    --> 
+    <section id="about">
+        <div class="container">
+            <img src="./images/loja.jpg" alt="Fachada da loja Drop'Smoke" class="store-front">
+            <div>
+                <h2>Sobre a Loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Numquam magni mollitia eos consectetur veritatis ea, 
+                    doloremque dolores ratione adipisci vel unde aliquam. 
+                    Est dolorum dolorem consequatur, quas esse unde odit.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Numquam magni mollitia eos consectetur veritatis ea, 
+                    doloremque dolores ratione adipisci vel unde aliquam. 
+                    Est dolorum dolorem consequatur, quas esse unde odit.
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/smoking.png" alt="Smoking Rolling Paper"></li>
+                    <li><img src="./images/elements.jpg" alt="Elements Rolling Paper"></li>
+                    <li><img src="./images/raw.jpg" alt="Raw Rolling Paper"></li>
+                    <li><img src="./images/ocb.jpg" alt="OCB Rolling Paper"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--
+    ----------------------------------------------------------------
+    section#contact>.container>h2{Contato}+.contact-methods
+    ---------------------------------------------------------------
+    atalho criar estrutura básica contato
+    -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+    <!--
+    -----------------------------------------------------------
+    div>h3{Fale conosco}+form>input+input+input+textarea+button
+    ----------------------------------------------------------
+    -->
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form action="">
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <input type="tel" placeholder="Seu Telefone (opcional)">
+                        <textarea placeholder="Descreva sua mensagem aqui!" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+    <!--
+    ----------------------------------------------
+    div>h3{Nos acompanhe}+ul.social-links>li>a>img
+    ----------------------------------------------
+    -->
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Acessar nosso instagram">
+                                <img src="./images/instagram.png" alt="logo instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Acessar nosso facebook">
+                                <img src="./images/facebook.png" alt="logo facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Acessar nosso canal do youtube">
+                                <img src="./images/youtube.png" alt="logo youtube" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    <!--
+    --------------------------------------------------
+    div>h3{Venha até nós}+p{Rua Smoke nº 4, São Paulo - SP}
+    -----------------------------------------
+    -->
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>Rua Smoke nº 4, São Paulo - SP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> &copy drop'smoke coffeeshop - todos os direitos reservados - 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
